@@ -1,0 +1,27 @@
+name: tfg
+description: Juego desarrollado con Flutter y Flame.
+publish_to: 'none' # No se publicará en internet.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.4
+
+# Paquetes que necesita el juego.
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flame: ^1.38.2
+
+# Paquetes usados durante el desarrollo.
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Imágenes, sonidos y tiles del juego.
+  assets:
+    - assets/
